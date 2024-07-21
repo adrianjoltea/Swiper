@@ -1,0 +1,87 @@
+.swiper-container {
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.product-info {
+  width: 100%;
+}
+
+.product-name {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-price {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 8px;
+}
+
+.discounted-price {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.product-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.add-to-cart {
+  background-color: #28a745;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+}
+
+.add-to-wishlist {
+  background-color: #ffc107;
+}
+
+.add-to-wishlist:hover {
+  background-color: #e0a800;
+}
