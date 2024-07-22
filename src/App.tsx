@@ -1,11 +1,8 @@
 import Swiper from "./features/swiper/Swiper";
+import ProductPage from "./pages/ProductPage";
 
 function App() {
-  return (
-    <div className="swiper-container">
-      <Swiper />
-    </div>
-  );
+  return <ProductPage />;
 }
 
 export default App;
